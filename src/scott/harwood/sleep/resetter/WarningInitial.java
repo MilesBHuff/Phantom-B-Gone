@@ -35,11 +35,11 @@ public class WarningInitial implements Runnable {
                 int daysAwake = floor(TimeAwake / 24000);
                 if (daysAwake < 2) {
                     Bukkit.getLogger().info(String.valueOf(daysAwake));
-                    P.sendMessage(ChatColor.GREEN.toString() + "[Phantoms B-Gone] " + P.getDisplayName() + " " + EarlyNights[daysAwake] + " (" + daysAwake + "/3)");
+                    //P.sendMessage(ChatColor.GREEN.toString() + "[Phantoms B-Gone] " + P.getDisplayName() + " " + EarlyNights[daysAwake] + " (" + daysAwake + "/3)");
                 } else {
                     Random r = new Random();
                     String message = LateNights.get(r.nextInt(LateNights.size()));
-                    P.sendMessage(ChatColor.GREEN.toString() + "[Phantoms B-Gone] " + P.getDisplayName() + " " + message + " (" + daysAwake + "/3)");
+                    //P.sendMessage(ChatColor.GREEN.toString() + "[Phantoms B-Gone] " + P.getDisplayName() + " " + message + " (" + daysAwake + "/3)");
                 }
             }
         }

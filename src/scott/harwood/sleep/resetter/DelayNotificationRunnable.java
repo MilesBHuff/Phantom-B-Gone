@@ -12,7 +12,7 @@ public class DelayNotificationRunnable implements Runnable {
 
     @Override
     public void run() {
-        p.sendMessage(ChatColor.GREEN.toString() + "[Phantoms B-Gone] " + p.getDisplayName() + " The Phantoms R-Gone");
+        //p.sendMessage(ChatColor.GREEN.toString() + "[Phantoms B-Gone] " + p.getDisplayName() + " The Phantoms R-Gone");
     }
 
 }
