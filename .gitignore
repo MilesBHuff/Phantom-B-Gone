@@ -1,6 +1,11 @@
+# Compiled binaries
+/bin
+
+# IDE configuration directories
+**/.idea
+**/.settings
+**/.project
+
 # Windows system files
 thumbs.db
 desktop.ini
-
-# Compiled binaries
-/bin
